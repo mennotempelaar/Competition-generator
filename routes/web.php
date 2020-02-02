@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('pages.welcome');
+})->name('home');
+
+Route::resource('competitions', 'CompetitionController');
