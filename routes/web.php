@@ -16,3 +16,4 @@ Route::get('/', function () {
 })->name('home');
 
 Route::resource('competitions', 'CompetitionController');
+Route::resource('players', 'PlayerController');

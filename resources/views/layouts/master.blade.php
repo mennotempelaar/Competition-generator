@@ -14,6 +14,9 @@
             <a href="{{ route('home') }}" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
+            <a href="{{ route('players.index') }}" class="nav-link">Spelers</a>
+        </li>
+        <li class="nav-item">
             <a href="{{ route('competitions.index') }}" class="nav-link">Competities</a>
         </li>
     </ul>

@@ -7,7 +7,7 @@
 
         <div class="list-group">
             @foreach ($competitions as $item)
-            <a class="list-group-item list-group-item-action" href="#">
+            <a class="list-group-item list-group-item-action" href="{{ route('competitions.show', ['competition' => $item]) }}">
                 {{ $item->name }}
             </a>
             @endforeach
